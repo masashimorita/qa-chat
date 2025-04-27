@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qachat"
+version = "0.0.1"
+description = "Q&A chat application using langchain and streamlit"
+authors = ["masashimorita"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+python-dotenv = "^1.0.1"
+streamlit = "^1.44.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
