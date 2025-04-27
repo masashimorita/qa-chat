@@ -1,0 +1,13 @@
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: docker/app/Dockerfile
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    ports:
+      - 8501:8501
+    command: streamlit run ./app.py
+
