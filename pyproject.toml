@@ -10,6 +10,9 @@ readme = "README.md"
 python = ">=3.11,<3.12"
 python-dotenv = "^1.0.1"
 streamlit = "^1.44.1"
+langchain-core = "^0.3.56"
+langchain-openai = "^0.3.14"
+langchain-community = "^0.3.22"
 
 [build-system]
 requires = ["poetry-core"]
